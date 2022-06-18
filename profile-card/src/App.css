@@ -1,0 +1,70 @@
+.App {
+  /*text-align: center;*/
+}
+
+.container {
+  max-width: 1400px;
+  background-color: #fff;
+  padding: 30px;
+  margin: 50px auto 0;
+  border-radius: 15px;
+}
+
+.header {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+h3 {
+  display: flex;
+}
+
+h3 span {
+  margin-left: 10px;
+  background-color: #2ACFCF;
+  color: white;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+section p {
+  text-transform: uppercase;
+}
+
+section div {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 800px;
+
+}
+
+.skill {
+  background-color: #2ACFCF;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.skill:hover {
+  background-color: #269696;
+}
+
+p {
+  display: flex;
+  align-items: center;
+}
+svg {
+  width: 15px;
+  margin-right: 5px;
+}

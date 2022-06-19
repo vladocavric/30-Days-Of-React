@@ -1,9 +1,27 @@
 
 import './App.css';
 
+const hexaColor = () => {
+  let str = '0123456789abcdef'
+  let color = ''
+  for (let i = 0; i < 6; i++) {
+    let index = Math.floor(Math.random() * str.length)
+    color += str[index]
+  }
+  return '#' + color
+}
+
+const colors = []
+
+for (let i = 0; i < 25; i++) { colors.push(hexaColor()) }
+
+
 function App() {
+  console.log(colors)
   return (
-   
+    <div>
+      {colors.map(color => <div style={{ backgroundColor: color, padding: 15 }}>{color}</div>)}
+    </div>
   );
 }
 

@@ -1,7 +1,6 @@
-
 import './App.css';
 
-const hexaColor = () => {
+const hexColor = () => {
   let str = '0123456789abcdef'
   let color = ''
   for (let i = 0; i < 6; i++) {
@@ -13,7 +12,7 @@ const hexaColor = () => {
 
 const colors = []
 
-for (let i = 0; i < 25; i++) { colors.push(hexaColor()) }
+for (let i = 0; i < 25; i++) { colors.push(hexColor()) }
 
 
 function App() {
